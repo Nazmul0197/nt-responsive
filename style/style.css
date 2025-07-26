@@ -225,6 +225,16 @@ main > section{
 
 
 
+/* .........footer style.......... */
+
+footer{
+  max-width: 1440px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 40px ;
+}
+
+
 /* responsive small medio quariy......... */
 
 @media screen and (max-width:576px) {
