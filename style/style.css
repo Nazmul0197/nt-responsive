@@ -121,8 +121,52 @@ main > section{
 #Features{
   color: #FF900E;
 }
+/* ........features love ......... */
+#features-love-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+.features-title{
+  font-size: 2.8rem;
+  width: 700;
+}
+.featires-card{
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+  max-width: 586px;
+}
+.features-description{
+  max-width: 586px;
+}
+
+.features-love{
+  gap: 145px;
+}
 
 
+.featires-card .features-card-title{
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+ 
+}
+#experience-bedge{
+  padding: 45px 42px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+
+#experience-year{
+  
+  font-size: 4rem;
+  font-weight: 700;
+
+}
 /* ...........some fact.style............ */
 
 .facts-container{
@@ -184,7 +228,7 @@ main > section{
 /* responsive small medio quariy......... */
 
 @media screen and (max-width:576px) {
-  .navbar,.nav-links,.teams{
+  .navbar,.nav-links,.teams,.features-love{
     flex-direction: column;
 
   }
@@ -206,6 +250,14 @@ main > section{
 
     gap: 50px;
 }
+
+.features-love img{
+  width: 100%;
+}
+#experience-bedge{
+ margin-top: 20px;
+ margin-left: 20px;
+}
 }
 
 
@@ -213,7 +265,7 @@ main > section{
 /* ....... meduiem device ........... */
 
 @media screen and (min-width:576px) and (max-width:992px) {
-  .teams{
+  .teams,.features-love{
     flex-direction: column;
   }
    .our-features{
@@ -225,11 +277,16 @@ main > section{
     gap: 50px;
 justify-items: center;
    }
+
+   .features-love img{
+  width: 100%;
+}
+#experience-bedge{
+ margin-top: 20px;
+ margin-left: 20px;
+}
 }
 
-.padding{
-  padding-left:180px ;
-}
 
 
 
